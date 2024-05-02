@@ -18,7 +18,7 @@ function blank3(){
     }
     
     if (!inFrame && !navigator.userAgent.includes("Firefox")) {
-        const popup = open("adarut:blank", "_blank")
+        const popup = open("about:blank", "_blank")
         if (!popup || popup.closed) {
             alert("Enable Popups to hide from history...")
         } else {
